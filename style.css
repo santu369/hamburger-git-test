@@ -1,0 +1,408 @@
+html {
+    font-size: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+body {
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+
+}
+
+h1,
+h2,
+h3 {
+    color: hsl(210, 10%, 33%)
+}
+
+main {
+    padding: 55px 25px 25px 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/bg-header-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+
+}
+
+
+header h1 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+header p {
+    margin-bottom: 40px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    gap: 20px;
+
+
+}
+
+button {
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: 3px solid hsl(171, 66%, 38%);
+
+}
+
+.btn-secondary {
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 3px solid hsl(233, 42%, 47%);
+
+
+}
+
+section h2 {
+    padding: 20px;
+}
+
+section p {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.img-features {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.image {
+    min-width: 323px;
+    margin-bottom: 35px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.feature h3 {
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+
+.feature p {
+    margin-bottom: 30px;
+    padding-left: 9px;
+    padding-right: 9px;
+    line-height: 1.6;
+    font-size: 1rem;
+    letter-spacing: 0.4px;
+
+
+}
+
+.design {
+    min-width: 323px;
+    margin-bottom: 50px;
+}
+
+.design img {
+    width: 100%;
+
+}
+
+.feature-img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.logos img {
+    padding-bottom: 50px;
+    max-width: 115px;
+
+}
+
+footer {
+    background-color: hsla(201, 11%, 66%, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+nav a {
+    margin-top: 25px;
+    text-decoration: none;
+    color: hsl(210, 10%, 33%)
+}
+
+.footer-left {
+    margin: 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.footer-right {
+    display: flex;
+    gap: 50px;
+
+}
+
+@media screen and (min-width:768px) {
+
+    .download {
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    .footer-left {
+        margin: 0px 0px 0px 0px;
+        gap: 50px;
+        flex-direction: row;
+
+
+
+    }
+
+    footer nav {
+        height: 100px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 400px;
+    }
+
+    .footer-right {
+        gap: 25px;
+
+    }
+
+    button {
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    main {
+        background-image: url("./images/bg-header-desktop.png");
+    }
+
+    header,
+    section {
+        width: 630px;
+        margin: 0 auto;
+
+
+    }
+
+    .img-features {
+        display: flex;
+        text-align: left;
+        align-items: center;
+
+    }
+
+    .image {
+        position: relative;
+        left: -45px;
+        min-width: 55%;
+        margin-bottom: 0px;
+
+    }
+
+    .features-container {
+        margin-top: 36px;
+        padding-right: 80px;
+        padding-left: 25px;
+
+    }
+
+    .feature p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .design img {
+        width: 75%;
+    }
+
+    .features-container-1024 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .features-container-1024 .feature {
+        width: 33%;
+    }
+
+    .feature-img {
+        height: 40px;
+
+    }
+
+    .logos {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 90px;
+    }
+
+
+    nav {
+        margin-top: 10px;
+        width: 546px;
+
+    }
+
+    nav a {
+        margin-top: 15px;
+
+    }
+
+    footer {
+        padding-left: 80px;
+        padding-right: 90px;
+        padding-bottom: 0px;
+    }
+
+    .footer-left {
+        gap: 115px;
+    }
+
+}
+
+@media screen and (min-width:1440px) {
+    html {
+        font-size: 120%;
+    }
+
+    main {
+        padding-top: 140px;
+    }
+
+
+    .image {
+        left: -60px;
+        min-width: 54%;
+
+    }
+
+    .features-container {
+        padding-left: 80px;
+        margin-top: 0px;
+        padding-right: 119px;
+
+    }
+
+    section {
+        width: 800px;
+
+    }
+
+    .features-container-1024 {
+        gap: 21px;
+        padding-right: 0px;
+        padding-left: 0px;
+        justify-content: center;
+
+
+    }
+
+    .features-container-1024 .feature {
+        width: 27%;
+    }
+
+    footer {
+        padding-left: 135px;
+        padding-right: 110px;
+    }
+
+    footer nav {
+        width: 600px;
+
+    }
+}
+
+button.btn-primary:hover {
+    background-color: hsl(171deg 75% 47%);
+    cursor: pointer;
+
+}
+
+button.btn-secondary:hover {
+    background-color: hsl(233deg 100% 78%);
+    cursor: pointer;
+
+}
+
+nav a:hover {
+    color: hsl(171deg 75% 47%);
+
+}
+
+.footer-right a:hover img {
+
+    filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+}

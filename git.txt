@@ -1,0 +1,26 @@
+git -> repository - code storage
+version control system
+repository or repo
+10 files html css -> commit -> version 1 
+10 files (existing, 2 modified) + 2 new files -> commit -> version 2
+local
+
+github, bit bucket, git lab -> push code
+online platforms providing git vcs
+private or public
+
+.gitignore -> files/folders to ignore while commiting
+README.md -> markdown file, repo details
+
+branches -> main
+
+git repo clone to local machine -> git clone https://github.com/santu369/frontendmentor-time-tracking-dashboard.git
+make changes add/modify/delete files
+stage all changes -> git add .
+check status -> git status
+commit to repository -> git commit -m "commit detail"
+push code to git hub repo -> git push origin master
+
+
+
+
