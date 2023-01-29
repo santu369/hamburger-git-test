@@ -21,6 +21,9 @@ check status -> git status
 commit to repository -> git commit -m "commit detail"
 push code to git hub repo -> git push origin master
 
+U-> untracked files
+M -> modified files
+
 
 
 
