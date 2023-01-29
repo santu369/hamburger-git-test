@@ -20,6 +20,7 @@ stage all changes -> git add .
 check status -> git status
 commit to repository -> git commit -m "commit detail"
 push code to git hub repo -> git push origin master
+pull changes from repo -> git pull
 
 U-> untracked files
 M -> modified files
