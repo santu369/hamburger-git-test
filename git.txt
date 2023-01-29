@@ -21,6 +21,12 @@ check status -> git status
 commit to repository -> git commit -m "commit detail"
 push code to git hub repo -> git push origin master
 pull changes from repo -> git pull
+checkout an existing branch -> git checkout branchName
+create new git branch -> git branch branchName
+push branch -> git push origin branchName
+show git commits -> git log
+show commit differences (red/green)-> git diff
+
 
 U-> untracked files
 M -> modified files
